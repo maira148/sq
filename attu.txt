@@ -1,0 +1,9 @@
+ datasets::attitude
+ ncol(attitude)
+ head(attitude)
+ a<-lm(attitude$rating~attitude$complaints)
+s<-lm(attitude$privileges~attitude$learning)
+ plot(a)
+library(caTools)
+glm(a)
+ glm(s)->c

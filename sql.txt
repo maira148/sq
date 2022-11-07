@@ -1,0 +1,36 @@
+ show databases;
+ use project;
+create table proj (
+     Rollno int not null,
+      name varchar(55) ,
+primary key(Rollno),
+     class int not null);
+  insert into proj(
+     Rollno ,name, class)
+      values(1,"ale",10);
+ select * from proj;
+insert into proj(
+      Rollno ,name,class)
+      values(2,"aleem",10),
+ (3,"aleem",10),
+ (4,"bilal",10),
+ (5,"fardan",10),
+ (6,"farhan",10),
+ (7,"abaan",10),
+
+
+(8,"azaan",10),
+(9,"mohib",10),
+(10,"omair",10);
+ desc proj;
+ select * from proj;
+
+;
+
+https://github.com/maira148/sq/upload/main
+
+https://www.linkedin.com/in/maira-maira-198b58241/
+
+4)MASTERS IN INFORMATION TECHNOLOGY
+FROM VIRTUAL UNIVERSITY OF PAKISTAN 
+(CONTINUE)

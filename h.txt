@@ -1,0 +1,18 @@
+show databases;
+ use project;
+create table hospital(
+id int not null ,
+dateofbirth date,
+timeofbirth time,
+name varchar(55)
+);
+insert into  hospital(id ,dateofbirth, timeofbirth,name)
+values
+( curdate() ,curtime() , "ali"),
+(curdate() ,curtime() , "ali"),
+(curdate() ,curtime() , "aleem"),
+(curdate() ,curtime() , "atif"),
+(curdate() ,curtime() , "iman"),
+(curdate() ,curtime() , "fatima"),
+(curdate() ,curtime() , "rida");
+select * from hospital;

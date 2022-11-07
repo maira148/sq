@@ -1,0 +1,50 @@
+use project;
+create table proj (
+     Rollno int not null,
+      name varchar(55) ,
+primary key(Rollno),
+     class int not null);
+  insert into proj(
+     Rollno ,name, class)
+      values(1,"ale",10);
+ select * from proj;
+insert into proj(
+      Rollno ,name,class)
+      values(2,"aleem",10),
+ (3,"aleem",10),
+ (4,"bilal",10),
+ (5,"fardan",10),
+ (6,"farhan",10),
+ (7,"abaan",10),
+
+
+(8,"azaan",10),
+(9,"mohib",10),
+(10,"omair",10);
+ desc proj;
+
+show databases;
+create table proj1(
+id int not null auto_increment ,
+primary key(id),
+marks int,
+totalmarks int,
+Rollno int,
+foreign key(Rollno) references proj(Rollno));
+ insert into proj1(
+id,Rollno,marks,totalmarks)
+values
+(1,1,45,50),
+(2,2,36,50),
+(3,3,38,50),
+(4,4,45,50),
+(5,5,40,50),
+(6,6,46,50),
+(7,7,45,50),
+(8,8,25,50),
+(9,9,42,50),
+(10,10,35,50);
+ select * from proj1;
+ select * from proj ,proj1 where proj.Rollno=proj1.Rollno
+
+ select * from proj;
