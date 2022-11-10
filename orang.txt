@@ -1,0 +1,12 @@
+ datasets::Orange
+ View(Orange)
+lm(Orange$Tree~Orange$age)
+a<-lm(Orange$Tree~Orange$age)
+ s<-sample.split(Orange , SplitRatio = 0.8)
+d<-subset(Orange ,s==TRUE )
+w<-subset(Orange ,s==FALSE )
+
+ plot(s)
+ plot(d)
+ plot(w)
+ 

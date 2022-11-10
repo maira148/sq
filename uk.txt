@@ -1,0 +1,5 @@
+ datasets::UKDriverDeaths
+ View(UKDriverDeaths)
+ summary(UKDriverDeaths)
+head(UKDriverDeaths)
+ plot(UKDriverDeaths)

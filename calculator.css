@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient( white,blue);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+form{
+    margin-top: 60px;
+    width: 400px;
+    height: 250px;
+    background:PINK;
+    border: solid 3px orange;
+    
+}
+p{
+    margin-left: 80px;
+    font-weight: 600;
+    margin-top: 10px;
+    
+    
+
+}
+.input{
+    margin-left: 30px;
+    border: solid 3px purple;
+    padding: 3px;
+     margin-top: 15px;
+     font-size: 16px;
+     
+
+}
+
+.inputs{
+    margin-left: 30px;
+    border: solid 3px purple;
+    padding: 3px;
+     margin-top: 15px;
+     font-size: 16px;
+     
+
+}
+.button{
+    background: black;
+    color: antiquewhite;
+    border: solid blue 3px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 100px;
+    border-radius: 10px;
+    font-size: 16px;
+}
